@@ -21,7 +21,7 @@ class AppAsset extends AssetBundle
     public $js = [
     ];
     public $depends = [
-        'yii\bootstrap\BootstrapAsset',
+        'yii\bootstrap5\BootstrapAsset',
     ];
     public $publishOptions = [
         'forceCopy' => true
